@@ -1,0 +1,15 @@
+body {
+    /* prevent user use scrolling */
+    overflow: hidden;
+}
+
+canvas {
+    position: absolute;
+
+    /* make sure top - left corner is at html */
+    top:0;
+    left:0;
+
+    /* send to back with the z-index property */
+    z-index: -1;
+}
